@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/home/oleg/projects/video/node_modules/.bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.10
+3 info using node@v8.9.4
+4 warn invalid config loglevel="notice"
+5 verbose run-script [ 'predev', 'dev', 'postdev' ]
+6 info lifecycle vue-fondation-w2@3.0.0~predev: vue-fondation-w2@3.0.0
+7 silly lifecycle vue-fondation-w2@3.0.0~predev: no script for predev, continuing
+8 info lifecycle vue-fondation-w2@3.0.0~dev: vue-fondation-w2@3.0.0
+9 verbose lifecycle vue-fondation-w2@3.0.0~dev: unsafe-perm in lifecycle true
+10 verbose lifecycle vue-fondation-w2@3.0.0~dev: PATH: /home/oleg/projects/video/node_modules/npm/bin/node-gyp-bin:/home/oleg/projects/video/node_modules/.bin:/usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/oleg/projects/video/node_modules/.bin:/home/oleg/bin:/home/oleg/.local/bin:/home/oleg/bin:/home/oleg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+11 verbose lifecycle vue-fondation-w2@3.0.0~dev: CWD: /home/oleg/projects/video
+12 silly lifecycle vue-fondation-w2@3.0.0~dev: Args: [ '-c', 'node build/dev-server.js' ]
+13 silly lifecycle vue-fondation-w2@3.0.0~dev: Returned: code: 1  signal: null
+14 info lifecycle vue-fondation-w2@3.0.0~dev: Failed to exec dev script
+15 verbose stack Error: vue-fondation-w2@3.0.0 dev: `node build/dev-server.js`
+15 verbose stack Exit status 1
+15 verbose stack     at EventEmitter.<anonymous> (/home/oleg/projects/video/node_modules/npm/lib/utils/lifecycle.js:255:16)
+15 verbose stack     at emitTwo (events.js:126:13)
+15 verbose stack     at EventEmitter.emit (events.js:214:7)
+15 verbose stack     at ChildProcess.<anonymous> (/home/oleg/projects/video/node_modules/npm/lib/utils/spawn.js:40:14)
+15 verbose stack     at emitTwo (events.js:126:13)
+15 verbose stack     at ChildProcess.emit (events.js:214:7)
+15 verbose stack     at maybeClose (internal/child_process.js:925:16)
+15 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+16 verbose pkgid vue-fondation-w2@3.0.0
+17 verbose cwd /home/oleg/projects/video
+18 error Linux 4.13.0-32-generic
+19 error argv "/usr/bin/node" "/home/oleg/projects/video/node_modules/.bin/npm" "run" "dev"
+20 error node v8.9.4
+21 error npm  v3.10.10
+22 error code ELIFECYCLE
+23 error vue-fondation-w2@3.0.0 dev: `node build/dev-server.js`
+23 error Exit status 1
+24 error Failed at the vue-fondation-w2@3.0.0 dev script 'node build/dev-server.js'.
+24 error Make sure you have the latest version of node.js and npm installed.
+24 error If you do, this is most likely a problem with the vue-fondation-w2 package,
+24 error not with npm itself.
+24 error Tell the author that this fails on your system:
+24 error     node build/dev-server.js
+24 error You can get information on how to open an issue for this project with:
+24 error     npm bugs vue-fondation-w2
+24 error Or if that isn't available, you can get their info via:
+24 error     npm owner ls vue-fondation-w2
+24 error There is likely additional logging output above.
+25 verbose exit [ 1, true ]
